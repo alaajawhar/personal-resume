@@ -21,7 +21,7 @@
             <appender-ref ref="FILE"/>
         </logger>
 
-        <logger name="org.springframework" level="debug">
+        <logger name="org.springframework" level="error">
             <appender-ref ref="STDOUT"/>
             <appender-ref ref="FILE"/>
         </logger>

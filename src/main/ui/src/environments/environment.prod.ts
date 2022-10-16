@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://localhost:8080/personal-resume'
+  baseUrl: 'https://d52f-95-184-79-164.ngrok.io/personal-resume'
 
 };

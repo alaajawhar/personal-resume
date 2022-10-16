@@ -1,0 +1,52 @@
+@font-face {
+  font-family: dancingScript;
+  src: url(src/assets/fonts/DancingScript-Medium.ttf);
+}
+@font-face {
+  font-family: assistant;
+  src: url(src/assets/fonts/Assistant-VariableFont_wght.ttf);
+}
+.thankyou-wrapper{
+  width:100%;
+  height:auto;
+  margin:auto;
+  background: transparent;
+  padding:10px 0px 50px;
+}
+.thankyou-wrapper h1{
+  font:100px dancingScript;
+  text-align:center;
+  color:#ffffff;
+  padding:0px 10px 10px;
+}
+.thankyou-wrapper p{
+  font:26px assistant;
+  text-align:center;
+  color:#ffffff;
+  padding:5px 10px 10px;
+}
+.thankyou-wrapper a{
+  border-radius: 25px;
+  font:25px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#eb4a4a;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #eb4a4a;
+}
+.thankyou-wrapper a:hover{
+  font:25px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#eb4a4a;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #eb4a4a;
+}

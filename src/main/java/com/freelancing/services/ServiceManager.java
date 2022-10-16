@@ -1,7 +1,7 @@
 package com.freelancing.services;
 
 import com.freelancing.exceptions.ClientException;
-import com.freelancing.models.BaseValidation;
+import com.freelancing.models.base.BaseValidation;
 
 /**
  * @author Alaa Jawhar

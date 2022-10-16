@@ -1,4 +1,4 @@
-package com.freelancing.models;
+package com.freelancing.models.base;
 
 import lombok.Data;
 
