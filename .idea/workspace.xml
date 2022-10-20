@@ -4,53 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="without the .idea folder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/config/MailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/constants/URIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/ContactMeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/dtos/BrowserIdMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/dtos/CircularLinkedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/dtos/EmailMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/dtos/RequestKeyDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/dtos/RequestKeyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ContactMeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/interfaces/IContactMeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/interfaces/IEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/utils/AESUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/thank-you/thank-you.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/thank-you/thank-you.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/thank-you/thank-you.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/fonts/Assistant-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/fonts/DancingScript-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/services/browserUtil.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/services/encryption.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/ContactMeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/exceptionHandlers/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/exceptionHandlers/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/base/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/models/BaseValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/base/BaseValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/models/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/base/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/models/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/models/base/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/config/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ui/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,9 +88,7 @@
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/personal-resume" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
+      <option name="envOptions" />
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8080" />
       <option name="tomcatInfo">
@@ -181,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665796884682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection">
+      <created>1665950138729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665950138729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +182,7 @@
     </ignored-roots>
     <MESSAGE value="init" />
     <MESSAGE value="without the .idea folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="without the .idea folder" />
+    <MESSAGE value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
   </component>
 </project>

@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @Configuration
 @PropertySource({ //
 		"classpath:/application.properties", //
+		"file:///${PERSONAL_RESUME}/config/app.properties", //
 })
 @EnableAsync
 public class AppConfig {

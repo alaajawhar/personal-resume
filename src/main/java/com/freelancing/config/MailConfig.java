@@ -1,17 +1,20 @@
 package com.freelancing.config;
 
+import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+import javax.annotation.PostConstruct;
 import java.util.Properties;
 
 /**
  * @author Alaa Jawhar
  */
 @Configuration
+@ToString
 public class MailConfig {
 
     @Value("${email.host}")
@@ -30,6 +33,8 @@ public class MailConfig {
     private String isEmailTlsEnabled;
     @Value("${email.debug}")
     private String isEmailDebugEnabled;
+    @Value("${email.smtp.ssl.protocol}")
+    private String smtpSslProtocol;
 
 
     @Bean
@@ -46,7 +51,13 @@ public class MailConfig {
         props.put("mail.smtp.auth", emailSmtpAuth);
         props.put("mail.smtp.starttls.enable", isEmailTlsEnabled);
         props.put("mail.debug", isEmailDebugEnabled);
+        props.put("mail.smtp.ssl.protocols", smtpSslProtocol);
 
         return mailSender;
+    }
+
+    @PostConstruct
+    public void init(){
+        System.out.println("MailConfigs: [" + this.toString() + "]");
     }
 }

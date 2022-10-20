@@ -28,24 +28,26 @@
 
   <div class="about-text">
     <h2>About Me</h2>
-    <h4>Hi, Im Here To Help Your Next Project</h4>
-    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's
-      Standard Dummy Text Ever Since The 1500s, When An .ac porta sem turpis quis leo. Nulla in feugiat elit.</p>
+    <h4>Hi, Im Here To Help In Your Next Project</h4>
+    <p>I am a full stack web and mobile app developer with 4+ years of experience.
+      I have a deep knowledge of enterprise design patterns and strong experience in building fully-functional
+      web and mobile products.I specialize in software design and architecture as
+    </p>
     <div class="about-gri">
       <div class="about-in">
-        <h5>1. Problem Solving</h5>
+        <h5>1. Spring</h5>
       </div>
 
       <div class="about-in">
-        <h5>2. Creative Idea</h5>
+        <h5>2. Angular</h5>
       </div>
 
       <div class="about-in">
-        <h5>3. Search a lot</h5>
+        <h5>3. AWS</h5>
       </div>
 
       <div class="about-in">
-        <h5>4. High Quality</h5>
+        <h5>4. Flutter</h5>
       </div>
 
     </div>
@@ -86,8 +88,9 @@
 <section class="contact" id="contact">
   <div class="contact-text">
     <h2>Contact Me</h2>
-    <h4>Let's Work Together</h4>
-    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+    <h4>Let's Talk</h4>
+    <p>Would you like to grab some coffee and talk business. contact me and I will get in touch with you as soon as
+      possible</p>
     <div class="contact-list">
       <li><a>Tripoli - North Lebanon - Lebanon</a></li>
       <li><a>alaa.jawhar.eng@gmail.com</a></li>
@@ -101,12 +104,14 @@
   </div>
 
   <div class="contact-form">
-    <form action="">
-      <input [(ngModel)]="contactMeRequest!.name" name="name"  type="text" placeholder="Enter Your Name" required>
-      <input [(ngModel)]="contactMeRequest!.email" name="email" type="email" placeholder="Enter Your Email" required>
-      <input [(ngModel)]="contactMeRequest!.subject" name="subject" type="text" placeholder="Enter Your Subject" required>
-      <textarea [(ngModel)]="contactMeRequest!.message" name="message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-      <input (click)="onSubmit()" type="submit" value="Submit" class="send">
+    <form action="#">
+      <input [(ngModel)]="contactMeRequest!.name" name="name" type="text" placeholder="Enter Your Name" required/>
+      <input [(ngModel)]="contactMeRequest!.email" name="email" type="email" placeholder="Enter Your Email" required/>
+      <input [(ngModel)]="contactMeRequest!.subject" name="subject" type="text" placeholder="Enter Your Subject"
+             required/>
+      <textarea [(ngModel)]="contactMeRequest!.message" name="message" id="" cols="40" rows="10"
+                placeholder="Enter Your Message"></textarea>
+      <input (click)="onSubmit()" type="submit" value="Submit" class="send"/>
     </form>
   </div>
 </section>

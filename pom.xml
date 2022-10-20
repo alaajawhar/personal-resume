@@ -114,6 +114,8 @@
                     <arguments>
                         <argument>build</argument>
                         <argument>--base-href=/${project.build.finalName}/</argument>
+                        <argument>--aot</argument>
+                        <argument>--output-hashing=all</argument>
                     </arguments>
                 </configuration>
             </plugin>

@@ -41,7 +41,11 @@ public class EmailService implements IEmailService {
 
     @PostConstruct
     public void init() {
-        this.sendSimpleMessage("alaa.jawhar.eng@gmail.com", "Personal resume server is up!", "Personal Resume Server is up and running!");
+        try {
+            this.sendSimpleMessage("alaa.jawhar.eng@gmail.com", "Personal resume server is up!", "Personal Resume Server is up and running!");
+        } catch (Exception e) {
+            log.error("Unable to send email", e);
+        }
     }
 
 }
