@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection">
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself">
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/aboutold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.old.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/config/MailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ContactMeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ContactMeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,13 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowPull Requests.ShowToolbar" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ui/src/assets/img" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -74,8 +78,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alaa jawhar\Documents\3. Personal Projects\personal-resume\src\main\ui\src\assets\img" />
       <recent name="C:\Users\Alaa jawhar\Documents\3. Personal Projects\personal-resume\src\main\resources" />
       <recent name="C:\Users\Alaa jawhar\Documents\3. Personal Projects\personal-resume\src\main\ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alaa jawhar\Documents\3. Personal Projects\personal-resume\src\main\ui\src\assets\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.freelancing.utils" />
@@ -84,17 +92,17 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="tomcat" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
+    <configuration name="tomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/personal-resume" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.60" />
-          <option name="number" value="0" />
           <option name="path" value="C:\Program Files\Apache\apache-tomcat-9.0.60" />
           <option name="version" value="9.0.60.0" />
         </TomcatInfo>
@@ -149,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665950138729</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself">
+      <created>1666278387249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666278387249</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +198,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="without the .idea folder" />
     <MESSAGE value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
+    <MESSAGE value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
+    <option name="LAST_COMMIT_MESSAGE" value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
   </component>
 </project>

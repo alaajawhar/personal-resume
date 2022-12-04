@@ -60,7 +60,6 @@ public class ContactMeService extends ServiceManager<ContactMeRequest, SuccessRe
             baseValidation.setIsError(Boolean.TRUE);
             baseValidation.setErrorMessage("Decryption failure");
             return baseValidation;
-
         }
 
         RequestKeyDto requestKeyDto = JsonUtil.parseJsonToObject(decryptedXPath.get(), RequestKeyDto.class);
