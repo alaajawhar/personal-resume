@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself">
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/aboutold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.old.jpg" afterDir="false" />
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="change the images to myself">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ContactMeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/services/ContactMeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background-compressed.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666278387249</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change the images to myself">
+      <created>1670157467362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670157467362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +203,7 @@
     <MESSAGE value="without the .idea folder" />
     <MESSAGE value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
     <MESSAGE value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
-    <option name="LAST_COMMIT_MESSAGE" value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
+    <MESSAGE value="change the images to myself" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the images to myself" />
   </component>
 </project>
