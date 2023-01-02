@@ -28,7 +28,7 @@ public class ContactMeController {
     private ContactMeService contactMeService;
 
     @RequestMapping(value = URIConstants.CONTACT_ME, method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<?> test(@RequestBody @Valid ContactMeRequest contactMeRequest) throws Exception {
+    public ResponseEntity<?> contactMe(@RequestBody @Valid ContactMeRequest contactMeRequest) throws Exception {
         return new ResponseEntity<>(contactMeService.run(contactMeRequest), HttpStatus.OK);
     }
 

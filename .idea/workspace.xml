@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="change the images to myself">
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="optimize the size of the background by using the background-compressed.jpeg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background-compressed.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/ContactMeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/ContactMeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +67,9 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ui/src/assets/img" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670157467362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="optimize the size of the background by using the background-compressed.jpeg">
+      <created>1672597417220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672597417220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +210,11 @@
     <MESSAGE value="fully functional website&#10;&#10;pending points&#10;1. change text in aboutMe and contactMe&#10;2. test the IP blocking&#10;    a. if it did not work, we should go for browser fingerprint detection" />
     <MESSAGE value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
     <MESSAGE value="change the images to myself" />
-    <option name="LAST_COMMIT_MESSAGE" value="change the images to myself" />
+    <MESSAGE value="optimize the size of the background by using the background-compressed.jpeg" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize the size of the background by using the background-compressed.jpeg" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
