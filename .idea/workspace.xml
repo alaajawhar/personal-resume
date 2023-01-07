@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="optimize the size of the background by using the background-compressed.jpeg">
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="renaming">
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/ContactMeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freelancing/controllers/ContactMeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672597417220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="renaming">
+      <created>1672695617191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672695617191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +220,8 @@
     <MESSAGE value="pending points &#10;   1. make date validation on the server side&#10;   2. change images to myself" />
     <MESSAGE value="change the images to myself" />
     <MESSAGE value="optimize the size of the background by using the background-compressed.jpeg" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize the size of the background by using the background-compressed.jpeg" />
+    <MESSAGE value="renaming" />
+    <option name="LAST_COMMIT_MESSAGE" value="renaming" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
