@@ -24,7 +24,6 @@ export class CryptoUtil {
 
   generateRequestKey() {
     const browserDetails = BrowserUtil.getDetails();
-    console.log(browserDetails)
     return new Promise((resolve, reject) => {
       let requestKey = {
         browserId: browserDetails,

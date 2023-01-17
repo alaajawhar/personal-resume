@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="renaming">
-      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg.old" afterDir="false" />
+    <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="add reference links to my other websites&#10;pending: develop a mobile app and add correct the link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/assets/img/portfolio4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/services/encryption.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/services/encryption.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672695617191</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add reference links to my other websites&#10;pending: develop a mobile app and add correct the link">
+      <created>1673081728045</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673081728045</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +229,8 @@
     <MESSAGE value="change the images to myself" />
     <MESSAGE value="optimize the size of the background by using the background-compressed.jpeg" />
     <MESSAGE value="renaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="renaming" />
+    <MESSAGE value="add reference links to my other websites&#10;pending: develop a mobile app and add correct the link" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reference links to my other websites&#10;pending: develop a mobile app and add correct the link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

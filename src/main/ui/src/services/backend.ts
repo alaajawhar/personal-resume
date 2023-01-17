@@ -15,6 +15,4 @@ export class Backend {
     const headers = new HttpHeaders({'X-PATH': requestKey});
     return this.http.post<ContactMeResponse>(Backend.SEND_CONTACT_ME_DETAILS, contactMeRequest, {headers: headers});
   }
-
-
 }

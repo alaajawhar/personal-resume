@@ -3,6 +3,7 @@ import {ContactMeRequest} from "../../model/contact.me";
 import {Backend} from "../../services/backend";
 import {CryptoUtil} from "../../services/encryption";
 import {Router} from "@angular/router";
+import {NgForm} from "@angular/forms";
 
 @Component({
   selector: 'app-main-screen',
@@ -52,7 +53,9 @@ export class MainScreenComponent implements OnInit {
     // sr.reveal('.about,.services,.portfolio,.contact', { delay: 200, origin: 'bottom' });
   }
 
-  onSubmit() {
+  onSubmit(formDetails: NgForm) {
+    console.log(formDetails.value.name);
+    console.log(formDetails.value.email);
     this.cryptoUtil.generateRequestKey().then(res => {
       this.backend.contactMeSubmit(this.contactMeRequest, res).subscribe(res => {
         this.router.navigate(['/thank-you']);
