@@ -1,6 +1,6 @@
 <!---header--->
 <header>
-  <a href="#" class="logo"><img src="favicon.ico"><span>Jawhar</span></a>
+  <a href="#" class="logo"><img src="assets/img/logo-light.png"><span>Jawhar</span></a>
   <div class=" bx bx-menu" id="menu-icon"></div>
 
   <ul class="navbar">
@@ -104,7 +104,7 @@
   </div>
 
   <div class="contact-form">
-    <form ngNativeValidate #myForm = "ngForm" (ngSubmit) = "onSubmit(myForm) ">
+    <form ngNativeValidate #myForm = "ngForm" (ngSubmit) = "onSubmit(myForm)">
       <input [(ngModel)]="contactMeRequest!.name" name="name" type="text" placeholder="Enter Your Name" required/>
       <input [(ngModel)]="contactMeRequest!.email" name="email" type="email" placeholder="Enter Your Email" required/>
       <input [(ngModel)]="contactMeRequest!.subject" name="subject" type="text" placeholder="Enter Your Subject"

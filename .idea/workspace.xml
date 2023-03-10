@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="add reference links to my other websites&#10;pending: develop a mobile app and add correct the link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/app/main-screen/main-screen.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/services/backend.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/services/encryption.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/src/services/encryption.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/aboutold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/assets/img/background.old.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -113,6 +111,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Alaa jawhar\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="be28d03e-9a95-4ace-9abd-5bc16d144cd4" name="Changes" comment="" />
